@@ -1,4 +1,4 @@
-FROM index.alauda.cn/tutum/tomcat:latest
+FROM alaudademo15-alaudademo15.customerindex.alauda.cn:5000/tomcat
 
 ADD docker-demo.war /tomcat/webapps/
 
