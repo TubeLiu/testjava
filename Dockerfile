@@ -1,6 +1,6 @@
-FROM alaudademo15-alaudademo15.customerindex.alauda.cn:5000/tomcat
+FROM index.alauda.cn/tutum/tomcat:latest
 
-ADD docker-demo.war /usr/local/apache-tomcat-6.0.45/webapps/
+ADD docker-demo.war /tomcat/webapps/
 
 ### run ###
 EXPOSE 8080
