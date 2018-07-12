@@ -1,4 +1,4 @@
-FROM index.alauda.cn/careri/testjava/tomcat:8.5.29-jre8
+FROM index.alauda.cn/careri/tomcat:8.5.29-jre8
 
 ADD docker-demo.war /usr/local/apache-tomcat-6.0.45/webapps/
 
